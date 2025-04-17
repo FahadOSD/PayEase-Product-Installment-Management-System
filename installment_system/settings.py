@@ -119,3 +119,6 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your-email@gmail.com'  # Update with your email
 EMAIL_HOST_PASSWORD = 'your-app-password'  # Use app password for Gmail
+
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
